@@ -26,17 +26,11 @@ This variant of the standard BP algorithm includes a momentum term in the weight
 
 Multiple Linear Regression (MLR) models the relationship between a dependent variable and multiple independent variables by fitting a linear equation to the data. The 'F' typically indicates the involvement of feature selection, which simplifies the model by selecting relevant features and removing irrelevant ones.
 
- Datasets
+Datasets
 
-Three datasets are used in this exercise:
+This dataset contains detailed records of cybersecurity incidents and can be accessed from Kaggle. It includes over 40,000 records with 25 different metrics, providing a comprehensive view of various types of cybersecurity threats.
 
-1. A1-synthetic.txt: This dataset contains 1001 entries across 10 columns, with v1 to v9 as independent variables and column z as the target variable.
-
-2. A1-turbine.txt: This dataset consists of 452 entries across 5 columns, with features like height_over_sea_level, fall, net_fall, flow, and power_of_hydroelectrical_turbine.
-
-3. winequality-white.csv: This dataset contains 750 rows and 12 columns, representing characteristics of white wines, including features like acidity, sulfur dioxide levels, alcohol, and quality ratings.
-
- Data Preprocessing
+Data Preprocessing
 
 Data normalization is performed using the MinMaxScaler to bring all data values to a consistent scale within the range [0, 1]. This process ensures stable training and avoids dominance of features based on magnitude.
 
